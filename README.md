@@ -2,8 +2,6 @@
 Arduino based thermometer using two DS18B20 sensors and 2x16 display
 
 Connection:
-
-Display:
 RS -------- Arduino pin 12
 RW -------- Arduino pin 11
 ENABLE ---- Arduino pin 10
@@ -12,6 +10,4 @@ LCD D4 ---- Arduino pin 5
 LCD D5 ---- Arduino pin 4
 LCD D6 ---- Arduino pin 3
 LCD D7 ---- Arduino pin 2
-
-Dallas temperature sensor:
 Sensor DQ ---- Arduino pin 8 (4.7K resistor between DQ and +5v)
